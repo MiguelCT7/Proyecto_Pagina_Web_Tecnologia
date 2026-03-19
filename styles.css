@@ -1,0 +1,254 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0f172a;
+    color: white;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: #1e3a8a;
+    padding: 15px;
+    text-align: center;
+    z-index: 1000;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #38bdf8;
+    text-decoration: underline;
+}
+
+section {
+    padding: 40px;
+    margin: 20px;
+    background-color: #1e293b;
+    border-radius: 10px;
+    text-align: center;
+    animation: fadeUp 1s ease;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #020617;
+    padding: 15px;
+    border-radius: 10px;
+    width: 260px;
+    overflow: hidden;
+    transition: transform 0.4s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.4s ease;
+}
+
+.card img:hover {
+    transform: scale(1.08);
+}
+
+.card h3 {
+    margin-top: 10px;
+}
+
+.card p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.boton {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.boton:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #38bdf8;
+}
+
+.tabla-historia {
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+    width: 80%;
+}
+
+.tabla-historia th,
+.tabla-historia td {
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.tabla-historia img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: 0.4s;
+}
+
+.tabla-historia img:hover {
+    transform: scale(1.08);
+}
+
+body {
+    background: #0f172a;
+}
+
+.robot {
+  width: 120px;
+  height: 100px;
+  background-color: blue;
+  margin: 100px auto;
+  text-align: center;
+
+ 
+  position: relative;
+  animation-name: moverRobot;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+
+.ojo {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 25px 10px 5px 10px;
+
+ 
+  transition: transform 0.5s ease-in-out;
+}
+
+
+.ojo:hover {
+  transform: scale(1.3);
+}
+
+
+.boca {
+  width: 60px;
+  height: 8px;
+  background-color: black;
+  margin: 5px auto;
+
+  transition: background-color 0.5s ease-in-out;
+}
+
+
+.robot:hover {
+  background-color: blue;
+}
+
+
+@keyframes moverRobot {
+
+  0% {
+    left: -50px;
+    background-color: blue;
+  }
+
+  50% {
+    left: 50px;
+  }
+
+  100% {
+    left: -50px;
+    background-color: blue;
+  }
+}
+
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.galeria img {
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.galeria img:hover {
+    transform: scale(1.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+
+input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    background: #2563eb;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #020617;
+}
+
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

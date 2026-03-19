@@ -3,8 +3,8 @@
 Proyecto web desarrollado como trabajo académico para la asignatura **Programación Avanzada** de la **Universidad de Boyacá**.
 
 ## Integrantes
-- Miguel Cristancho  
-- Kevyn Nuncira  
+- Miguel Angel Torres Cristancho - 55224527
+- Kevyn Nicolas Nuncira Orjuela - 55224530  
 
 ## Descripción
 
